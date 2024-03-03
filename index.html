@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+     <meta charset="UTF-8">
+     <meta><hhttp-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Honk&family=Kode+Mono:wght@400..700&family=Protest+Riot&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Honk&family=Kode+Mono:wght@400..700&family=Protest+Riot&family=Rubik+Doodle+Shadow&family=Silkscreen:wght@400;700&display=swap" rel="stylesheet">
+     <img src="imagenes/alura.png" id="letra-a">    
+     <link rel="stylesheet" href="crypto.css">
+     <title>Reto encriptador</title>
+  </head>
+
+         <body class="cuerpoPrincipal">
+
+
+
+              <div class="encabezado">
+                 <h1 id="titulo">ENCRIPTADOR</h1>             
+              </div>
+
+                 <div>
+
+                    <input type="text" id="entrada" required>
+                    <label for="entrada" class="label1"> Introduce tu texto aqui</label>
+
+                    <input type="text" id="salida" readonly="readonly" >
+                    <label for="salida" class="label2">Aqui esta tu texto encriptado</label>
+
+                    <p id="indicacion">Por favor solo minusculas y sin acentos</p>
+
+                   
+
+                    <button type="button" onclick="encriptadora();" id="encriptador" > Encriptar</button>
+                    <button type="button" onclick="desencriptadora();" id="desencriptador" > Desencriptar</button>
+                    <button type="button" onclick="copiadora();" id="copiador" > Copiar texto</button>
+                   
+
+
+                </div>
+
+                <script src="encriptador.js"> </script>
+     </body>
+    
+    
+</html>

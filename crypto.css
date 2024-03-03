@@ -1,0 +1,187 @@
+*{
+   margin: 0;
+   padding: 0;
+
+}
+
+// <uniquifier>: Use a uniquifier for the class name
+// <weight>: Use a value from 400 to 700
+
+.kode-mono-<uniquifier> {
+  font-family: "Kode Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+// <uniquifier>: Use a uniquifier for the class name
+
+.honk-<uniquifier> {
+  font-family: "Honk", system-ui;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "MORF" 15,
+    "SHLN" 50;
+}
+
+.rubik-doodle shadow-regular {
+   font-family: "Rubik Doodle Shadow", system-ui;
+   font-weight: 400;
+   font-style: normal;
+ }
+ 
+
+
+body{
+   background-image: linear-gradient(90deg, #00B7D4, #505488, #2F3F80, #161569, #5A4894, #A950A1, #FF7CAE);
+   background-size: 400%;
+   animation: movecolor 5s infinite;
+}
+
+@keyframes movecolor {
+   0%{
+      background-position: 0% 50%;    
+   }
+   50%{
+      background-position: 100% 50%;
+   }
+   100%{
+    background-position:   0% 50%;
+   }
+}
+
+#letra-a{
+   position: static;
+   width: 6%;
+   float: right;
+}
+
+#entrada{
+   position: relative;
+   width: 20%;
+   height: 20%;
+   padding: 50px;
+   margin: 0.5em;
+   float:left;
+   margin-top: 10%;
+   margin-left: 5%;
+  background-color: transparent;
+  font-size: medium;
+  font-family: Franklin Gothic ;
+  border-color: white;
+}
+
+.label1{
+ position: relative;
+ float: left;
+ margin-left: -25%;
+ margin-top: 8%;
+ font-weight: bold;
+ font-family: "Rubik Doodle Shadow", system-ui;
+ font-weight: 300%;
+ font-style: normal;
+
+}
+
+#salida{
+   position: relative;
+   width: 20%;
+   height: 20%;
+   padding: 50px;
+   margin: 0.5em;
+   float:right;
+   margin-top: 10%;
+   margin-right: -1%;
+   background-color: transparent;
+   font-size: medium;
+   font-family: Franklin Gothic ;
+   border-color: white;
+}
+
+.label2{
+   position: relative;
+   float: right;
+  margin-right: -25%;
+   margin-top: 8%;
+   font-weight: bold;
+   font-family: "Rubik Doodle Shadow", system-ui;
+   font-weight: 300%;
+   font-style: normal;
+}
+
+
+#indicacion{
+   position: absolute;
+   margin-top: 3%;
+   margin-left: 35%;
+    font-size: 25px;
+   font-family: "Honk", system-ui;
+   font-optical-sizing: auto;
+   font-weight: 400;
+   font-style: normal;
+   font-variation-settings:
+     "MORF" 15,
+     "SHLN" 50;
+   
+   
+
+}
+
+#encriptador{
+   position:absolute;
+   float:left;
+   margin-left: -20%;
+   margin-top: 25%;
+   padding: 50px;
+   width: 210px;
+   height: 50px;
+   border-radius: 6vh;
+   background-color: blueviolet;
+   font-weight: bold;
+   font-size:large;
+   font-family: "Kode Mono", monospace;
+   font-optical-sizing: auto;
+   font-weight: weight;
+   font-style: normal;
+}
+
+#desencriptador{
+   position: relative;
+   float:right;
+   margin-right: -20%;
+   margin-top: 25%;
+   padding: 50px;
+   height: 50px;
+   border-radius: 6vh;
+   background-color: blueviolet;
+   font-weight: bold;
+   font-size:large;
+   font-family: "Kode Mono", monospace;
+   font-optical-sizing: auto;
+   font-weight: weight;
+   font-style: normal;
+}
+
+#copiador{
+   position: relative;
+   float: center;
+   margin-left: 8%;
+   margin-top: 25%;
+   padding: 50px;
+   height: 50px;
+   border-radius: 6vh;
+   background-color:orangered;
+   font-weight: bold;
+   font-size:large;
+   font-family: "Kode Mono", monospace;
+   font-optical-sizing: auto;
+   font-weight: weight;
+   font-style: normal;
+   display:none;
+}
+
+
+
+
